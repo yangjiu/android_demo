@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    
+ 
+ 
+
+  
+  <!--layout_width不能使用wrap_content  
+  <LinearLayout
+      android:layout_width="match_parent"             
+      android:layout_height="wrap_content" 
+      android:orientation="horizontal"
+      android:gravity="center"
+      >
+  --> 
+  
+  <!-- Radio的集合，注意设置  android:gravity="center" 以及  android:layout_weight="1"-->
+  
+      <RadioGroup
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content" 
+          android:orientation="horizontal"
+          android:gravity="center"
+          >
+          
+        <RadioButton 
+          android:id="@+id/rd1"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+           android:gravity="center"
+          android:text="微信"
+           />  
+           
+          <RadioButton 
+          android:id="@+id/rd2"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+           android:gravity="center"
+          android:text="联系人"
+           />  
+           
+              <RadioButton 
+          android:id="@+id/rd3"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+           android:gravity="center"
+          android:text="我"
+           />  
+          
+      <!--android:gravity="center" 属性让文字居中  -->  
+          
+          
+      </RadioGroup>
+    
+   <!-- viewpage用于加载fragment -->   
+      
+   <android.support.v4.view.ViewPager
+      android:id="@+id/mviewpage"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content" >
+      
+  </android.support.v4.view.ViewPager>  
+    
+      
+      
+      
+    
+  
+    
+    
+</LinearLayout>
