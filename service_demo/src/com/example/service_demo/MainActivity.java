@@ -1,7 +1,9 @@
 package com.example.service_demo;
 
 import android.app.Activity;
+import android.app.Service;
 import android.content.Intent;
+import android.content.ServiceConnection;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -25,8 +27,11 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Intent mIntent=new Intent("com.example.service_demo.Mservice");
-        startService(mIntent);
+        ServiceConnection connection;
+             Intent mIntent=new Intent("com.example.service_demo.Mservice");
+    //    startService(mIntent);
+        bindService(mIntent, connection, Service.AUDIO_SERVICE);
+
     }
 
     @Override

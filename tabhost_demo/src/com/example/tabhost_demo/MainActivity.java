@@ -3,8 +3,10 @@ package com.example.tabhost_demo;
 import android.app.Activity;
 import android.app.TabActivity;
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.TabHost;
 import android.widget.TabHost.TabSpec;
 
@@ -27,13 +29,15 @@ import android.widget.TabHost.TabSpec;
 
 
 
-public class MainActivity extends TabActivity {
+public class MainActivity extends TabActivity{
 
 	TabHost mtabhost;	
 	TabHost.TabSpec wechatSpec;
 	TabHost.TabSpec contactSpec;
 	TabHost.TabSpec findSpec;
 	TabHost.TabSpec meSpec;
+	Mefragment mefragment;
+	LayoutInflater lfInflater;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -42,11 +46,16 @@ public class MainActivity extends TabActivity {
         
         //从TabActivity上面获取放置Tab的TabHost
         mtabhost = getTabHost();
+        mefragment=new Mefragment();
+        
+        lfInflater=getLayoutInflater();
+        View mView=lfInflater.inflate(R.layout.mefragment, null);
         
         wechatSpec=mtabhost.newTabSpec("微信").setIndicator("微信");
         contactSpec=mtabhost.newTabSpec("联系人").setIndicator("联系人");
         findSpec=mtabhost.newTabSpec("发现").setIndicator("发现");
         meSpec=mtabhost.newTabSpec("我").setIndicator("我");
+      //  meSpec=mtabhost.newTabSpec("我").setIndicator(mView);
         
         
         
@@ -58,7 +67,7 @@ public class MainActivity extends TabActivity {
         mtabhost.addTab(wechatSpec);
         mtabhost.addTab(contactSpec);
         mtabhost.addTab(findSpec);
-        mtabhost.addTab(meSpec);
+        
         
         
 
