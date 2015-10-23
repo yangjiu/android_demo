@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    
+      
+       <item
+        android:id="@+id/menu_home"
+        android:title=""    
+        android:icon="@drawable/search_home"
+        android:showAsAction="always">
+         </item>    
+    
+    
+      <item
+        android:id="@+id/search_home"
+        android:title=""      
+        android:actionProviderClass="com.example.fangwechat.WCmenu_provider"  
+         android:showAsAction="always"/>
+     
+   
+  
+  <!--      
+     <menu>
+         
+          <item
+        android:id="@+id/menu_groudchat"
+        android:title="aa"    
+        android:icon="@drawable/menu_home"
+        android:showAsAction="always"/>
+         
+            <item
+        android:id="@+id/menu_addfriend"
+        android:title="bb"    
+        android:icon="@drawable/menu_home"
+        android:showAsAction="always"/>
+            
+            
+               <item
+        android:id="@+id/menu_scan"
+        android:title="cc"    
+        android:icon="@drawable/menu_home"
+        android:showAsAction="always"/>
+         
+         
+     </menu>    
+         
+    -->        
+         
+         
+         
+         
+ 
+
+        
+   
+     
+    
+     
+   
+ 
+ </menu>

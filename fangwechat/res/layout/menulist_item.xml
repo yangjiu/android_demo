@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/item_menuimage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:paddingBottom="7dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/wechat" />
+
+    <TextView
+        android:id="@+id/item_menutext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="17dp"
+        android:layout_toRightOf="@+id/item_menuimage"
+        android:text="Medium Text"
+       android:textSize="16sp" />
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_checked_text"> #1AC045</color>
+    <color name="color_unchecked_text">#999999</color>
+    <color name="color_topback">#3D3B36</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="actionbar_color">#222222</color>
+    <color name="expandgroud">#FFEBCD</color>
+    
+</resources>
