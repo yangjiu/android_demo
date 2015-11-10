@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">preference_demo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_pereditor_">PEReditor_Activity</string>
+    <string name="title_activity_basepre">Basepre</string>
+    <string name="title_activity_wcsetting">WcsettingActivity</string>
+    <string name="title_activity_hander">HanderActivity</string>
+
+</resources>
