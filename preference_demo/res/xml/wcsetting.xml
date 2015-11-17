@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    
+    <PreferenceCategory android:title=" 微信设置项" 
+        android:key="setting_cate" 
+        android:orderingFromXml="true">
+        
+        <Preference android:key="new_msg" android:title="新消息提醒" android:fragment="com.example.preference_demo.Newmsgfragment"/>
+        <Preference android:key="no_interupt" android:title="勿扰模式" />
+        <Preference android:key="chat" android:title="聊天" />
+        <Preference android:key="private_tg" android:title="隐私"/>
+        <Preference android:key="general" android:title="通用"/>
+        <Preference android:key="accountandsafe" android:title="账号与安全"/>
+       
+    </PreferenceCategory>
+    
+
+     <PreferenceCategory android:title=" 微信退出项" android:key="out_cate">
+            <Preference android:key="aboutwc" android:title="关于微信"/>
+            <Preference android:key="outwc" android:title="退出"/>
+        </PreferenceCategory>
+    
+</PreferenceScreen>

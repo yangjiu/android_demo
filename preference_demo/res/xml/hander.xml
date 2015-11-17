@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+    <header 
+        android:fragment="com.example.preference_demo.HanderActivity$SettingsFragment"
+        android:title="header1">
+        
+        <extra android:name="settings" android:value="one" />
+        </header>
+    <header            
+        android:fragment="com.example.preference_demo.HanderActivity$SettingsFragment"
+        android:title="head2"
+         >
+        <!-- key/value pairs can be included as arguments for the fragment. -->
+        <extra android:name="settings" android:value="two" />
+    </header>
+</preference-headers>

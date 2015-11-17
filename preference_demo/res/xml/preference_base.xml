@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!-- 这个布局强调的是  PreferenceScreen嵌套PreferenceScreen，另一个PreferenceScreen会在另一页显示-->
+
+<PreferenceScreen 
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:title="Settings">
+	<PreferenceScreen 
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:title="Emotions"
+		android:summary="settings about emotions">
+		<CheckBoxPreference  
+			android:title="Love me?" 
+			android:summaryOn="Yes,I love you!"
+			android:summaryOff="No,I am sorry."
+			android:defaultValue="true">
+		</CheckBoxPreference>
+		<CheckBoxPreference 
+			android:title="Hate me?" 
+			android:summaryOn="Yes,I hate you!"
+			android:summaryOff="No,you are a good person."
+			android:defaultValue="false">
+		</CheckBoxPreference>		
+	</PreferenceScreen>
+	<PreferenceScreen 
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:title="Relations"
+		android:summary="settings about relations">
+		<CheckBoxPreference 
+			android:title="Family?" 
+			android:summaryOn="Yes,we are family!"
+			android:summaryOff="No,I am sorry."
+			android:defaultValue="true">
+		</CheckBoxPreference>
+		<CheckBoxPreference 
+			android:title="Friends?" 
+			android:summaryOn="Yes,we are friends!"
+			android:summaryOff="No,I am sorry."
+			android:defaultValue="false">
+		</CheckBoxPreference>		
+	</PreferenceScreen>	
+</PreferenceScreen>

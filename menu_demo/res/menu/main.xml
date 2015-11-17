@@ -1,0 +1,61 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.menu_demo.MainActivity" >
+<!--  1.根节点为menu，每个菜单项为item
+      2.item内可以嵌套menu，实现子菜单
+      3.title属性为显示的文字，showasaction属性为是否显示在actionbar，为always则显示在bar上，为never则到了overflow下，overflow为右上角的三个点，此处没有设置overflow
+ -->
+    
+    <!-- 
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+ -->
+    <item 
+        android:id="@+id/item1"
+        android:showAsAction="always"
+        android:title="item1"
+        
+        />
+    
+     <item 
+        android:id="@+id/item2"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_launcher"
+        android:title="item2">
+        
+        <menu>
+           
+        <item
+         android:id="@+id/item2.1"
+        android:showAsAction="never"
+        android:title="item2.1"/>
+        
+         <item
+         android:id="@+id/item2.2"
+        android:showAsAction="never"
+        android:title="item2.2"/>
+         
+            <item
+         android:id="@+id/item2.3"
+        android:showAsAction="never"
+        android:title="item2.3"/>
+         
+        
+        </menu>
+            
+   </item>         
+  
+     
+     
+         <item 
+        android:id="@+id/item3"
+        android:showAsAction="always"
+        android:title="item3"
+        
+        />
+     
+    
+</menu>
