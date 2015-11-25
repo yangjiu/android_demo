@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- #ifdef VENDOR_EDIT -->
+    <!-- ShaoMing@EXP.DataComm.Phone, 2014/01/09, Add for  telcel netlock-->
+	<string name="telcelnetlock_recover">Bloquear dispositivo</string>
+	<string name="telcelnetlock_clear">Desbloquear dispositivo</string>
+	<string name="telcelnetlock_recover_hint">¿Desea bloquear el dispositivo?</string>
+	<string name="telcelnetlock_clear_hint">Favor de ingresar el código de desbloqueo de 16 dígitos proporcionado por su operador. Su dispositivo será bloqueado permanentemente después de 5 intentos fallidos.</string>
+	<string name="telcelunlocked">¡Desbloquear el dispositivo con éxito!</string>
+	<string name="telcelunlock_failed">¡Falló al desbloquear el dispositivo!</string>
+	<string name="telcellocked">¡Bloquear el dispositivo con éxito!</string> 
+	<string name="telcellock_failed">¡Falló al bloquear el dispositivo!</string>  	
+	<string name="telcellockedforever">Su dispositivo está bloqueado permanentemente!</string>
+	<string name="telcellockedtimes" formatted="false">Código de desbloqueo incorrecto, %d intentos restantes</string>
+	<string name="telcellockedtime" formatted="false">Código de desbloqueo incorrecto, %d intento restante</string>
+	<string name="telcel_sure">Aceptar</string>  
+	<string name="telcel_cancel">Cancelar</string>
+	<!-- #endif //VENDOR_EDIT -->
+</resources>

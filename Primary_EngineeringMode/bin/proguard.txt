@@ -1,0 +1,3 @@
+# view AndroidManifest.xml #generated:110
+-keep class com.android.engineeringmode.qualcomm.DiagEnabled { <init>(...); }
+

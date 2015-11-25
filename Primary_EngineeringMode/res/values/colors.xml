@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue">#FF0000FF</color>
+    <color name="oppo_alert_dialog_content_text_color">#ffffffff</color>
+    <color name="alert_dialog_content_bg_color">#00ffffff</color>
+    <color name="oppo_listview_background_color">#ff000000</color>
+    <color name="large_text_color">#ff555555</color>
+    <color name="online_settings_white">#ffffffff</color>	
+    <!--//#ifdef VENDOR_EDIT
+	//DuHuan@EXP.CommService.Mms, 2014.11.25, Add for Exp switch software version-->
+    <color name="gridview_alert_red">#ffff0000</color>
+    <color name="gridview_alert_green">#ff00ff00</color>
+    <!--#endif /* VENDOR_EDIT */-->
+</resources>

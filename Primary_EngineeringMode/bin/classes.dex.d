@@ -1,0 +1,27 @@
+/work/Primary_EngineeringMode/bin/classes.dex : \
+/work/Primary_EngineeringMode/bin/classes/com/android/engineeringmode/R$menu.class \
+/work/Primary_EngineeringMode/bin/classes/com/android/engineeringmode/BuildConfig.class \
+/work/Primary_EngineeringMode/bin/classes/com/android/engineeringmode/R$id.class \
+/work/Primary_EngineeringMode/bin/classes/com/android/engineeringmode/manualtest/LightSensorUtils.class \
+/work/Primary_EngineeringMode/bin/classes/com/android/engineeringmode/R$layout.class \
+/work/Primary_EngineeringMode/bin/classes/com/android/engineeringmode/R$color.class \
+/work/Primary_EngineeringMode/bin/classes/com/android/engineeringmode/R$string.class \
+/work/Primary_EngineeringMode/bin/classes/com/android/engineeringmode/R.class \
+/work/Primary_EngineeringMode/bin/classes/com/android/engineeringmode/R$style.class \
+/work/Primary_EngineeringMode/bin/classes/com/android/engineeringmode/qualcomm/DiagEnabled.class \
+/work/Primary_EngineeringMode/bin/classes/com/android/engineeringmode/qualcomm/Privilege.class \
+/work/Primary_EngineeringMode/bin/classes/com/android/engineeringmode/qualcomm/DiagEnabled$1.class \
+/work/Primary_EngineeringMode/bin/classes/com/android/engineeringmode/qualcomm/DiagEnabled$2.class \
+/work/Primary_EngineeringMode/bin/classes/com/android/engineeringmode/R$attr.class \
+/work/Primary_EngineeringMode/bin/classes/com/android/engineeringmode/R$array.class \
+/work/Primary_EngineeringMode/bin/classes/com/android/engineeringmode/functions/Light.class \
+/work/Primary_EngineeringMode/bin/classes/com/android/engineeringmode/R$drawable.class \
+/work/Primary_EngineeringMode/bin/classes/android/os/IOppoService$Stub.class \
+/work/Primary_EngineeringMode/bin/classes/android/os/OppoUsageManager.class \
+/work/Primary_EngineeringMode/bin/classes/android/os/IOppoService$Stub$Proxy.class \
+/work/Primary_EngineeringMode/bin/classes/android/os/OppoManager.class \
+/work/Primary_EngineeringMode/bin/classes/android/os/IOppoService.class \
+/work/Primary_EngineeringMode/bin/classes/android/os/IOppoUsageService.class \
+/work/Primary_EngineeringMode/bin/classes/android/os/IOppoUsageService$Stub$Proxy.class \
+/work/Primary_EngineeringMode/bin/classes/android/os/IOppoUsageService$Stub.class \
+/work/Primary_EngineeringMode/bin/dexedLibs/android-support-v4-59b390cccc800b5ffc5396eec9ac1663.jar \
